@@ -1,4 +1,4 @@
-a=[[7,2,3], [9,5,6], [11,8,9]]
+#a=[[7,2,3], [9,5,6], [11,8,9]]
 
 def find_min_in_nested_arrays(src)
   # src will be an array of arrays of integers
@@ -17,7 +17,7 @@ def find_min_in_nested_arrays(src)
     newArr.push(compare_number)
     i+=1 
   end 
-  puts newArr
+  return newArr
 end
 
-find_min_in_nested_arrays(a)
+#find_min_in_nested_arrays(a)
